@@ -1,0 +1,2 @@
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Definitions.NaveJuego.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\NaveJuego.h
