@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "Bonus.h"
 #include "NaveJuegoGameMode.generated.h"
+
 
 UCLASS(MinimalAPI)
 class ANaveJuegoGameMode : public AGameModeBase
@@ -13,6 +15,9 @@ class ANaveJuegoGameMode : public AGameModeBase
 
 public:
 	ANaveJuegoGameMode();
+
+protected:
+	virtual void BeginPlay() override;
 };
 
 

@@ -6,4 +6,6 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Bonus.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Bonus.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\NaveJuegoGameMode.generated.h

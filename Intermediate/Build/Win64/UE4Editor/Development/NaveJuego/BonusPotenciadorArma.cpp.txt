@@ -1,0 +1,5 @@
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Definitions.NaveJuego.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\BonusPotenciadorArma.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Bonus.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Bonus.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\BonusPotenciadorArma.generated.h

@@ -4,6 +4,8 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Bonus.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Bonus.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\NaveJuegoGameMode.generated.h
 F:\K Pamela\E\NaveJuego\Source\NaveJuego\NaveJuegoPawn.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
@@ -13,3 +15,19 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\NaveJuegoPawn.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritosMovil.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritos.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Meteorito.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Meteorito.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritos.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\MeteoritoMovil.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\MeteoritoMovil.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritosMovil.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritosFantasma.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\MeteoritoFantasma.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\MeteoritoFantasma.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritosFantasma.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritosDestructible.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\MeteoritoDestructible.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\MeteoritoDestructible.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritosDestructible.generated.h

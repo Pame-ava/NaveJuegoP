@@ -1,0 +1,7 @@
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Definitions.NaveJuego.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego/BonusReparacionNave.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Bonus.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Bonus.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\BonusReparacionNave.generated.h

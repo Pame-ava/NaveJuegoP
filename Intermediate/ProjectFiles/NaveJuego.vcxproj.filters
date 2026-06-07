@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NaveJuego.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DB5E6629-8CF8-4E22-9219-E8A71E51DC32}</UniqueIdentifier>
+      <UniqueIdentifier>{C40C9585-52AB-4E26-A45C-8B4766FE29B7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NaveJuego.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\NaveJuegoEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{A74ED69B-79CC-40E8-8ACA-AB9E2F1FC7AF}</UniqueIdentifier>
+      <UniqueIdentifier>{40C63623-6BB5-4F7F-812A-790EEC603B22}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NaveJuego">
-      <UniqueIdentifier>{752AB628-6C53-4BFC-A6E5-4F677E0076B1}</UniqueIdentifier>
+      <UniqueIdentifier>{F6D7E0F7-1BBE-4AAE-AECE-9EFEC8ED1520}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\NaveJuego\Arma.cpp">
       <Filter>Source\NaveJuego</Filter>
@@ -56,10 +58,124 @@
     <ClInclude Include="..\..\Source\NaveJuego\ArmaFuerte.h">
       <Filter>Source\NaveJuego</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\Bonus.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\Bonus.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\BonusComodin.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\BonusComodin.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\BonusPotenciadorArma.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\BonusPotenciadorArma.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\BonusReparacionNave.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\BonusReparacionNave.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\Enemigo.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\Enemigo.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EnemigoAtacante.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EnemigoAtacante.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EnemigoAtacanteRapido.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EnemigoAtacanteRapido.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EnemigoBloqueador.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EnemigoBloqueador.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EnemigoEscudo.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EnemigoEscudo.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EnemigoExplosivo.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EnemigoExplosivo.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EnemigoJefeFinal.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EnemigoJefeFinal.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EnemigoLaser.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EnemigoLaser.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\FabricaMeteoritos.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\FabricaMeteoritos.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\FabricaMeteoritosDestructible.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\FabricaMeteoritosDestructible.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\FabricaMeteoritosFantasma.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\FabricaMeteoritosFantasma.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\FabricaMeteoritosMovil.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\FabricaMeteoritosMovil.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NaveJuego\Meteorito.cpp">
       <Filter>Source\NaveJuego</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NaveJuego\Meteorito.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\MeteoritoDestructible.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\MeteoritoDestructible.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\MeteoritoFantasma.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\MeteoritoFantasma.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\MeteoritoMovil.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\MeteoritoMovil.h">
       <Filter>Source\NaveJuego</Filter>
     </ClInclude>
     <None Include="..\..\Source\NaveJuego\NaveJuego.Build.cs">

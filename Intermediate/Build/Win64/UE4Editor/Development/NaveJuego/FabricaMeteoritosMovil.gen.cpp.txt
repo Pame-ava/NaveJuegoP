@@ -1,0 +1,11 @@
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Definitions.NaveJuego.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego/FabricaMeteoritosMovil.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritos.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Meteorito.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Meteorito.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritos.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\MeteoritoMovil.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\MeteoritoMovil.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritosMovil.generated.h

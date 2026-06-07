@@ -48,6 +48,8 @@ public:
 
 
 #define NaveJuego_Source_NaveJuego_ArmaFuerte_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AArmaFuerte() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AArmaFuerte(AArmaFuerte&&); \
@@ -55,7 +57,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AArmaFuerte); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArmaFuerte); \
-	DEFINE_FORBIDDEN_DEFAULT_CONSTRUCTOR_CALL(AArmaFuerte)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AArmaFuerte)
 
 
 #define NaveJuego_Source_NaveJuego_ArmaFuerte_h_15_PRIVATE_PROPERTY_OFFSET

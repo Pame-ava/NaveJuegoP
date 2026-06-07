@@ -17,19 +17,19 @@ class NAVEJUEGO_API AArmaFuerte : public AArmaDecorador
 private :
 	int danioextra;
 
-public:
-    AArmaFuerte(IArma* InProjectile, int InExtraDanio)
-        : AArmaDecorador(InProjectile), danioextra(InExtraDanio) {
-    }
+//public:
+//    AArmaFuerte(IArma* InProjectile, int InExtraDanio)
+//        : AArmaDecorador(InProjectile), danioextra(InExtraDanio) {
+//    }
 
-    virtual void danio(AActor* OtherActor) override
-    {
-        AArmaDecorador::danio(OtherActor);
-        //UE_LOG(LogTemp, Warning, TEXT("Decorador: daño adicional %d"), extraDanio);
+    //virtual void danio(AActor* OtherActor) override
+    //{
+    //    AArmaDecorador::danio(OtherActor);
+    //    //UE_LOG(LogTemp, Warning, TEXT("Decorador: daño adicional %d"), extraDanio);
 
-        // if (AEnemigo* enemigo = Cast<AEnemigo>(OtherActor))
-        // {
-        //     enemigo->RecibirDanio(extraDanio);
-        // }
-    }
+    //    // if (AEnemigo* enemigo = Cast<AEnemigo>(OtherActor))
+    //    // {
+    //    //     enemigo->RecibirDanio(extraDanio);
+    //    // }
+    //}
 };
