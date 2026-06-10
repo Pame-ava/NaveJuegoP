@@ -23,7 +23,6 @@ void EmptyLinkFunctionForGeneratedCodeNaveJuegoProjectile() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
-	NAVEJUEGO_API UClass* Z_Construct_UClass_UArma_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ANaveJuegoProjectile::execOnHit)
 	{
@@ -139,7 +138,6 @@ void EmptyLinkFunctionForGeneratedCodeNaveJuegoProjectile() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovement;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -182,9 +180,6 @@ void EmptyLinkFunctionForGeneratedCodeNaveJuegoProjectile() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJuegoProjectile_Statics::NewProp_ProjectileMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJuegoProjectile_Statics::NewProp_ProjectileMovement,
 	};
-		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ANaveJuegoProjectile_Statics::InterfaceParams[] = {
-			{ Z_Construct_UClass_UArma_NoRegister, (int32)VTABLE_OFFSET(ANaveJuegoProjectile, IArma), false },
-		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANaveJuegoProjectile_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANaveJuegoProjectile>::IsAbstract,
 	};
@@ -195,11 +190,11 @@ void EmptyLinkFunctionForGeneratedCodeNaveJuegoProjectile() {}
 		DependentSingletons,
 		FuncInfo,
 		Z_Construct_UClass_ANaveJuegoProjectile_Statics::PropPointers,
-		InterfaceParams,
+		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJuegoProjectile_Statics::PropPointers),
-		UE_ARRAY_COUNT(InterfaceParams),
+		0,
 		0x008000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ANaveJuegoProjectile_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJuegoProjectile_Statics::Class_MetaDataParams))
 	};
@@ -212,7 +207,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveJuegoProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveJuegoProjectile, 2313252356);
+	IMPLEMENT_CLASS(ANaveJuegoProjectile, 1680867416);
 	template<> NAVEJUEGO_API UClass* StaticClass<ANaveJuegoProjectile>()
 	{
 		return ANaveJuegoProjectile::StaticClass();

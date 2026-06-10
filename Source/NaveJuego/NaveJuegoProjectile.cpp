@@ -7,6 +7,7 @@
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Engine/StaticMesh.h"
 
+
 ANaveJuegoProjectile::ANaveJuegoProjectile() 
 {
 	// Static reference to the mesh to use for the projectile
@@ -42,16 +43,4 @@ void ANaveJuegoProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActo
 	}
 
 	Destroy();
-}
-
-void ANaveJuegoProjectile::danio(AActor* OtherActor)
-{
-	//UE_LOG(LogTemp, Warning, TEXT("El proyectil causa %d puntos de daño"), danioBase);
-
-	 //Ejemplo: si el enemigo tiene RecibirDanio
-	 /*if (AEnemigo* enemigo = Cast<AEnemigo>(OtherActor))
-	 {
-	     enemigo->RecibirDanio(danioBase);
-	 }*/
-
 }

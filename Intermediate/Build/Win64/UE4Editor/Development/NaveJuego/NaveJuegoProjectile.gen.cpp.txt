@@ -2,6 +2,4 @@ F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 F:\K Pamela\E\NaveJuego\Source\NaveJuego/NaveJuegoProjectile.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\Arma.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Arma.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\NaveJuegoProjectile.generated.h

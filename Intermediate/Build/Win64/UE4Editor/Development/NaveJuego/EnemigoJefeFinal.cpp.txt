@@ -3,3 +3,5 @@ F:\K Pamela\E\NaveJuego\Source\NaveJuego\EnemigoJefeFinal.h
 F:\K Pamela\E\NaveJuego\Source\NaveJuego\Enemigo.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Enemigo.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\EnemigoJefeFinal.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\ProyectilEnemigo.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\ProyectilEnemigo.generated.h

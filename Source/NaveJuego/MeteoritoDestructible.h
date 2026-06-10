@@ -16,7 +16,7 @@ class NAVEJUEGO_API AMeteoritoDestructible : public AMeteorito
 public:
     AMeteoritoDestructible();
 
-    virtual void construirMeteorito(FVector PosicionInicial, FVector VelocidadInicial) override;
+    virtual void construirMeteorito(FVector Inicio, FVector Destino, float Vel) override;
     virtual void Mdanio(AActor* OtherActor) override;
 
     void RecibirDanio(float Cantidad);

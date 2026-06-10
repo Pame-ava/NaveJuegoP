@@ -12,17 +12,16 @@ ABonus::ABonus()
     MallaBonus = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MallaBonus"));
     RootComponent = MallaBonus;
 
-    // Asignar malla dorada (ejemplo: esfera)
-    static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshObj(TEXT("/Game/Meshes/EsferaDorada.EsferaDorada"));
-    if (MeshObj.Succeeded()) {
-        MallaBonus->SetStaticMesh(MeshObj.Object);
+    // Aquí puedes usar un cubo como base del muro
+    static ConstructorHelpers::FObjectFinder<UStaticMesh> MallaAsset(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'"));
+
+    if (MallaAsset.Succeeded())
+    {
+        MallaBonus->SetStaticMesh(MallaAsset.Object);
     }
 
-    // Asignar material dorado
-    static ConstructorHelpers::FObjectFinder<UMaterialInterface> MaterialObj(TEXT("Material'/Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel'"));
-    if (MaterialObj.Succeeded()) {
-        MallaBonus->SetMaterial(0, MaterialObj.Object);
-    }
+    // Escala para que parezca  largo y delgado
+    MallaBonus->SetRelativeScale3D(FVector(1.0f, 2.0f, 1.0f));
 
     // Activar colisiones para recoger
     MallaBonus->SetCollisionEnabled(ECollisionEnabled::QueryOnly);

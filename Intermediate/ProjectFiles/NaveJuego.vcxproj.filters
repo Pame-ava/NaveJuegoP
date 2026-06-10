@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NaveJuego.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C40C9585-52AB-4E26-A45C-8B4766FE29B7}</UniqueIdentifier>
+      <UniqueIdentifier>{1C4E07F8-9710-4D27-91AD-73B3010101A6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NaveJuego.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{40C63623-6BB5-4F7F-812A-790EEC603B22}</UniqueIdentifier>
+      <UniqueIdentifier>{D90A44CB-88B7-4B5B-9397-CF83938F7C62}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NaveJuego">
-      <UniqueIdentifier>{F6D7E0F7-1BBE-4AAE-AECE-9EFEC8ED1520}</UniqueIdentifier>
+      <UniqueIdentifier>{19CB86EC-1DEB-4534-AA62-82237931846D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\NaveJuego\Arma.cpp">
       <Filter>Source\NaveJuego</Filter>
@@ -80,6 +80,18 @@
       <Filter>Source\NaveJuego</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NaveJuego\BonusReparacionNave.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\DirectorNivel1.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\DirectorNivel1.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\DirectorNivel2.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\DirectorNivel2.h">
       <Filter>Source\NaveJuego</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\NaveJuego\Enemigo.cpp">
@@ -130,6 +142,30 @@
     <ClInclude Include="..\..\Source\NaveJuego\EnemigoLaser.h">
       <Filter>Source\NaveJuego</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EnemigoSuscrito.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EnemigoSuscrito.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\FabricaEnemigos.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\FabricaEnemigos.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\FabricaEnemigosAgresor.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\FabricaEnemigosAgresor.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\FabricaEnemigosDefensor.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\FabricaEnemigosDefensor.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NaveJuego\FabricaMeteoritos.cpp">
       <Filter>Source\NaveJuego</Filter>
     </ClCompile>
@@ -152,6 +188,12 @@
       <Filter>Source\NaveJuego</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NaveJuego\FabricaMeteoritosMovil.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\GenerarLaberinto.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\GenerarLaberinto.h">
       <Filter>Source\NaveJuego</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\NaveJuego\Meteorito.cpp">
@@ -203,6 +245,48 @@
       <Filter>Source\NaveJuego</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NaveJuego\NaveJuegoProjectile.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\Nivel1.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\Nivel1.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\Nivel2.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\Nivel2.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\Nivelbasico1.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\Nivelbasico1.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\NivelBasico2.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\NivelBasico2.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\Observador.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\Observador.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\ProyectilEnemigo.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\ProyectilEnemigo.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\RadarObservador.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\RadarObservador.h">
       <Filter>Source\NaveJuego</Filter>
     </ClInclude>
   </ItemGroup>

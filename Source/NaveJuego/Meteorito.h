@@ -26,7 +26,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	virtual void construirMeteorito(FVector PosicionInicial, FVector VelocidadInicial);
+	virtual void construirMeteorito(FVector Inicio, FVector Destino, float Vel);
+
 	virtual void Mdanio(AActor* OtherActor);
 
 };

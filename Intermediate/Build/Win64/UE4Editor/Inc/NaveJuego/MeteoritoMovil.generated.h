@@ -58,7 +58,14 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMeteoritoMovil)
 
 
-#define NaveJuego_Source_NaveJuego_MeteoritoMovil_h_15_PRIVATE_PROPERTY_OFFSET
+#define NaveJuego_Source_NaveJuego_MeteoritoMovil_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__PuntoInicio() { return STRUCT_OFFSET(AMeteoritoMovil, PuntoInicio); } \
+	FORCEINLINE static uint32 __PPO__PuntoDestino() { return STRUCT_OFFSET(AMeteoritoMovil, PuntoDestino); } \
+	FORCEINLINE static uint32 __PPO__Velocidad() { return STRUCT_OFFSET(AMeteoritoMovil, Velocidad); } \
+	FORCEINLINE static uint32 __PPO__LimiteMin() { return STRUCT_OFFSET(AMeteoritoMovil, LimiteMin); } \
+	FORCEINLINE static uint32 __PPO__LimiteMax() { return STRUCT_OFFSET(AMeteoritoMovil, LimiteMax); }
+
+
 #define NaveJuego_Source_NaveJuego_MeteoritoMovil_h_12_PROLOG
 #define NaveJuego_Source_NaveJuego_MeteoritoMovil_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

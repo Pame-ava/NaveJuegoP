@@ -29,10 +29,9 @@ void AMeteoritoFantasma::Reaparecer()
     GetWorldTimerManager().SetTimer(TimerHandle, this, &AMeteoritoFantasma::Desaparecer, 5.0f, false);
 }
 // Inicializa el meteorito fantasma
-void AMeteoritoFantasma::construirMeteorito(FVector PosicionInicial, FVector VelocidadInicial)
+void AMeteoritoFantasma::construirMeteorito(FVector Inicio, FVector Destino, float Vel)
 {
-    SetActorLocation(PosicionInicial);
-    // En este caso, el fantasma no usa velocidad, pero podrías guardar VelocidadInicial si lo necesitas
+   
 }
 
 // Aplica daño a la nave

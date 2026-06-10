@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "Bonus.h"
+#include "DirectorNivel1.h"
+#include "Nivelbasico1.h"
+#include "DirectorNivel2.h"
+#include "NivelBasico2.h"
 #include "NaveJuegoGameMode.generated.h"
 
 
@@ -18,6 +21,14 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+private:
+	UDirectorNivel1* Director;
+	UNivelbasico1* Builder;
+
+//private:
+//	UDirectorNivel2* Director;
+//	UNivelBasico2* Builder;
 };
 
 

@@ -47,9 +47,9 @@ void AMeteorito::Tick(float DeltaTime)
 
 }
 
-void AMeteorito::construirMeteorito(FVector PosicionInicial, FVector VelocidadInicial)
+void AMeteorito::construirMeteorito(FVector Inicio, FVector Destino, float Vel)
 {
-    SetActorLocation(PosicionInicial);
+
 }
 
 void AMeteorito::Mdanio(AActor* OtherActor)

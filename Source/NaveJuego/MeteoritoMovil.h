@@ -18,14 +18,27 @@ public:
 
 protected:
     virtual void Tick(float DeltaTime) override;
+   
+    virtual void construirMeteorito(FVector Inicio, FVector Destino, float Vel) override;
 
-    virtual void construirMeteorito(FVector PosicionInicial, FVector VelocidadInicial) override;
     virtual void Mdanio(AActor* OtherActor) override;
 
 private:
+    UPROPERTY(EditAnywhere, Category = "Movimiento")
     FVector PuntoInicio;
+
+    UPROPERTY(EditAnywhere, Category = "Movimiento")
     FVector PuntoDestino;
+
+    UPROPERTY(EditAnywhere, Category = "Movimiento")
+    float Velocidad = 200.0f;
+
+    UPROPERTY(EditAnywhere, Category = "Movimiento")
+    FVector LimiteMin = FVector(-1000, -1000, 0);
+
+    UPROPERTY(EditAnywhere, Category = "Movimiento")
+    FVector LimiteMax = FVector(1000, 1000, 500);
+
     FVector Direccion;
-    float Velocidad;
     bool bHaciaDestino;
 };

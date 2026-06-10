@@ -28,3 +28,7 @@ void AEnemigoAtacanteRapido::Mover(float DeltaTime)
 void AEnemigoAtacanteRapido::RecibirDanio(float CantidadDanio)
 {
 }
+
+void AEnemigoAtacanteRapido::ActualizarEstado(AActor* PawnDetectado)
+{
+}

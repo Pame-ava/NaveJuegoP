@@ -1,0 +1,29 @@
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Definitions.NaveJuego.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\NivelBasico2.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Nivel2.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Nivel2.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\NivelBasico2.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\GenerarLaberinto.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\GenerarLaberinto.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaEnemigosAgresor.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaEnemigos.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Enemigo.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Enemigo.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaEnemigos.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaEnemigosAgresor.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaEnemigosDefensor.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaEnemigosDefensor.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\BonusPotenciadorArma.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Bonus.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Bonus.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\BonusPotenciadorArma.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\BonusReparacionNave.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\BonusReparacionNave.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\BonusComodin.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\BonusComodin.generated.h

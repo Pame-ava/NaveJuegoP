@@ -26,5 +26,5 @@ public:
 	virtual void Disparar() override;
 	virtual void Mover(float DeltaTime) override;
 	virtual void RecibirDanio(float CantidadDanio) override;
-
+	virtual void ActualizarEstado(AActor* PawnDetectado) override;
 };

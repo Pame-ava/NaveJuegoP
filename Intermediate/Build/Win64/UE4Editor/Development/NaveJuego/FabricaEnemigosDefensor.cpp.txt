@@ -1,0 +1,13 @@
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Definitions.NaveJuego.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaEnemigosDefensor.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaEnemigos.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Enemigo.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Enemigo.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaEnemigos.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaEnemigosDefensor.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\EnemigoBloqueador.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Observador.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Observador.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\EnemigoBloqueador.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\EnemigoEscudo.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\EnemigoEscudo.generated.h

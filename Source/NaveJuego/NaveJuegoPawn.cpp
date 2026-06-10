@@ -13,6 +13,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundBase.h"
 
+#include "Meteorito.h"
+
 const FName ANaveJuegoPawn::MoveForwardBinding("MoveForward");
 const FName ANaveJuegoPawn::MoveRightBinding("MoveRight");
 const FName ANaveJuegoPawn::FireForwardBinding("FireForward");
@@ -26,7 +28,8 @@ ANaveJuegoPawn::ANaveJuegoPawn()
 	RootComponent = ShipMeshComponent;
 	ShipMeshComponent->SetCollisionProfileName(UCollisionProfile::Pawn_ProfileName);
 	ShipMeshComponent->SetStaticMesh(ShipMesh.Object);
-	
+	ShipMeshComponent->OnComponentHit.AddDynamic(this, &ANaveJuegoPawn::OnHit);//agregamos la función OnHit para detectar colisiones
+
 	// Cache our sound effect
 	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/TwinStick/Audio/TwinStickFire.TwinStickFire"));
 	FireSound = FireAudio.Object;
@@ -50,6 +53,9 @@ ANaveJuegoPawn::ANaveJuegoPawn()
 	GunOffset = FVector(90.f, 0.f, 0.f);
 	FireRate = 0.1f;
 	bCanFire = true;
+
+	Health = 100.0f; // vida inicial
+//	bCanBeDamaged = true; // habilitar daño
 }
 
 void ANaveJuegoPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -136,4 +142,36 @@ void ANaveJuegoPawn::ShotTimerExpired()
 {
 	bCanFire = true;
 }
+
+void ANaveJuegoPawn::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor,
+	UPrimitiveComponent* OtherComp, FVector NormalImpulse,
+	const FHitResult& Hit)
+{
+	if (OtherActor && OtherActor != this)
+	{
+		// Verifica si el actor es un meteorito
+		if (OtherActor->IsA(AMeteorito::StaticClass()))
+		{
+			// Aplica daño
+			UGameplayStatics::ApplyDamage(this, 20.0f, GetController(), OtherActor, nullptr);
+		}
+	}
+}
+
+float ANaveJuegoPawn::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent,
+	AController* EventInstigator, AActor* DamageCauser)
+{
+	Health -= DamageAmount;
+
+	UE_LOG(LogTemp, Warning, TEXT("La nave recibió daño. Vida restante: %f"), Health);
+
+	if (Health <= 0)
+	{
+		// Aquí puedes poner lógica de Game Over
+		Destroy();
+	}
+
+	return DamageAmount;
+}
+
 

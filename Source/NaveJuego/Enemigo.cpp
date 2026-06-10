@@ -5,6 +5,7 @@
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Engine/World.h"
 #include "GameFramework/Actor.h"
+#include "ProyectilEnemigo.h"
 
 // Sets default values
 AEnemigo::AEnemigo()
@@ -40,12 +41,23 @@ void AEnemigo::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	Mover(DeltaTime);
+	Disparar();
 }
 
 void AEnemigo::Disparar()
 {
-    // Aquí puedes instanciar un proyectil o simplemente mostrar un log
-//    UE_LOG(LogTemp, Warning, TEXT("El enemigo dispara causando %f de daño"), NivelDanio);
+    UWorld* World = GetWorld();
+    if (World)
+    {
+        // Posición de spawn: delante del enemigo
+        FVector SpawnLocation = GetActorLocation() + GetActorForwardVector() * 100.0f;
+        FRotator SpawnRotation = GetActorRotation();
+
+        // Instanciar proyectil
+        World->SpawnActor<AProyectilEnemigo>(AProyectilEnemigo::StaticClass(), SpawnLocation, SpawnRotation);
+
+        UE_LOG(LogTemp, Warning, TEXT("%s disparó un proyectil"), *GetName());
+    }
 }
 
 void AEnemigo::Mover(float DeltaTime)
@@ -57,12 +69,15 @@ void AEnemigo::Mover(float DeltaTime)
 
 void AEnemigo::RecibirDanio(float CantidadDanio)
 {
-    NivelVida -= CantidadDanio;
-    //UE_LOG(LogTemp, Warning, TEXT("El enemigo recibió %f de daño. Vida restante: %f"), CantidadDanio, NivelVida);
+	NivelVida -= CantidadDanio;
 
     if (NivelVida <= 0)
     {
-       // UE_LOG(LogTemp, Warning, TEXT("El enemigo ha sido destruido"));
+       
         Destroy();
     }
+}
+
+void AEnemigo::ActualizarEstado(AActor* PawnDetectado)
+{
 }

@@ -23,3 +23,5 @@ void AEnemigoExplosivo::Explotar()
     //UE_LOG(LogTemp, Warning, TEXT("¡El enemigo explosivo explota causando %f de daño!"), NivelDanio * 3);
     Destroy();
 }
+
+

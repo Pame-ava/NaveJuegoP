@@ -4,4 +4,6 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UOb
 F:\K Pamela\E\NaveJuego\Source\NaveJuego/EnemigoBloqueador.h
 F:\K Pamela\E\NaveJuego\Source\NaveJuego\Enemigo.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Enemigo.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Observador.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Observador.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\EnemigoBloqueador.generated.h

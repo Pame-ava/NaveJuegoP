@@ -18,10 +18,8 @@ void AMeteoritoDestructible::RecibirDanio(float Cantidad)
     }
 }
 // Inicializa el meteorito destructible
-void AMeteoritoDestructible::construirMeteorito(FVector PosicionInicial, FVector VelocidadInicial)
+void AMeteoritoDestructible::construirMeteorito(FVector Inicio, FVector Destino, float Vel)
 {
-    SetActorLocation(PosicionInicial);
-    // Este meteorito no se mueve por defecto, pero podrías usar VelocidadInicial si lo deseas
 }
 
 // Aplica daño a la nave

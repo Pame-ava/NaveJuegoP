@@ -4,14 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Arma.h"
 #include "NaveJuegoProjectile.generated.h"
 
 class UProjectileMovementComponent;
 class UStaticMeshComponent;
 
 UCLASS(config=Game)
-class ANaveJuegoProjectile : public AActor,public IArma
+class ANaveJuegoProjectile : public AActor
 {
 	GENERATED_BODY()
 
@@ -35,6 +34,6 @@ public:
 	/** Returns ProjectileMovement subobject **/
 	FORCEINLINE UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
 
-	virtual void danio(AActor* OtherActor) override;
+	
 };
 

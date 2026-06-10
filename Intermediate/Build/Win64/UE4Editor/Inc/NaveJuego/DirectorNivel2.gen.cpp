@@ -1,0 +1,85 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "NaveJuego/DirectorNivel2.h"
+#ifdef _MSC_VER
+#pragma warning (push)
+#pragma warning (disable : 4883)
+#endif
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeDirectorNivel2() {}
+// Cross Module References
+	NAVEJUEGO_API UClass* Z_Construct_UClass_UDirectorNivel2_NoRegister();
+	NAVEJUEGO_API UClass* Z_Construct_UClass_UDirectorNivel2();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
+	UPackage* Z_Construct_UPackage__Script_NaveJuego();
+// End Cross Module References
+	void UDirectorNivel2::StaticRegisterNativesUDirectorNivel2()
+	{
+	}
+	UClass* Z_Construct_UClass_UDirectorNivel2_NoRegister()
+	{
+		return UDirectorNivel2::StaticClass();
+	}
+	struct Z_Construct_UClass_UDirectorNivel2_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UDirectorNivel2_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UObject,
+		(UObject* (*)())Z_Construct_UPackage__Script_NaveJuego,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDirectorNivel2_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n * \n */" },
+		{ "IncludePath", "DirectorNivel2.h" },
+		{ "ModuleRelativePath", "DirectorNivel2.h" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UDirectorNivel2_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UDirectorNivel2>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UDirectorNivel2_Statics::ClassParams = {
+		&UDirectorNivel2::StaticClass,
+		nullptr,
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x001000A0u,
+		METADATA_PARAMS(Z_Construct_UClass_UDirectorNivel2_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UDirectorNivel2_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UDirectorNivel2()
+	{
+		static UClass* OuterClass = nullptr;
+		if (!OuterClass)
+		{
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_UDirectorNivel2_Statics::ClassParams);
+		}
+		return OuterClass;
+	}
+	IMPLEMENT_CLASS(UDirectorNivel2, 2949595321);
+	template<> NAVEJUEGO_API UClass* StaticClass<UDirectorNivel2>()
+	{
+		return UDirectorNivel2::StaticClass();
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UDirectorNivel2(Z_Construct_UClass_UDirectorNivel2, &UDirectorNivel2::StaticClass, TEXT("/Script/NaveJuego"), TEXT("UDirectorNivel2"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UDirectorNivel2);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+#ifdef _MSC_VER
+#pragma warning (pop)
+#endif

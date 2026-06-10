@@ -4,8 +4,24 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\Bonus.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Bonus.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\DirectorNivel1.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Nivel1.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Nivel1.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\DirectorNivel1.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Nivelbasico1.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Nivelbasico1.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\DirectorNivel2.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Nivel2.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Nivel2.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\DirectorNivel2.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\NivelBasico2.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\NivelBasico2.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\NaveJuegoGameMode.generated.h
 F:\K Pamela\E\NaveJuego\Source\NaveJuego\NaveJuegoPawn.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
@@ -15,19 +31,37 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\NaveJuegoPawn.generated.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritosMovil.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritos.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\Meteorito.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Meteorito.generated.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritos.generated.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\MeteoritoMovil.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\MeteoritoMovil.generated.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritosMovil.generated.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritosFantasma.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\MeteoritoFantasma.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\MeteoritoFantasma.generated.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritosFantasma.generated.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaMeteoritosDestructible.h
-F:\K Pamela\E\NaveJuego\Source\NaveJuego\MeteoritoDestructible.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\MeteoritoDestructible.generated.h
-F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaMeteoritosDestructible.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\GenerarLaberinto.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\GenerarLaberinto.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaEnemigosAgresor.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaEnemigos.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Enemigo.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Enemigo.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaEnemigos.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaEnemigosAgresor.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\FabricaEnemigosDefensor.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\FabricaEnemigosDefensor.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\BonusPotenciadorArma.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Bonus.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Bonus.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\BonusPotenciadorArma.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\BonusReparacionNave.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\BonusReparacionNave.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\BonusComodin.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\BonusComodin.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\RadarObservador.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Observador.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Observador.generated.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\RadarObservador.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\EnemigoAtacante.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\EnemigoAtacante.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\EnemigoBloqueador.h
+F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\EnemigoBloqueador.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

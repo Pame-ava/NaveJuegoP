@@ -21,7 +21,7 @@ public:
 protected:
     virtual void BeginPlay() override;
 
-    virtual void construirMeteorito(FVector PosicionInicial, FVector VelocidadInicial) override;
+    virtual void construirMeteorito(FVector Inicio, FVector Destino, float Vel) override;
     virtual void Mdanio(AActor* OtherActor) override;
 
 private:

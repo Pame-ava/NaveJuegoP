@@ -36,7 +36,7 @@ public: \
 
 #define NaveJuego_Source_NaveJuego_EnemigoEscudo_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEnemigoEscudo(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AEnemigoEscudo(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemigoEscudo) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemigoEscudo); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoEscudo); \
@@ -48,8 +48,6 @@ public:
 
 
 #define NaveJuego_Source_NaveJuego_EnemigoEscudo_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEnemigoEscudo() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemigoEscudo(AEnemigoEscudo&&); \

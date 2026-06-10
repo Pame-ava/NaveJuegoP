@@ -14,6 +14,9 @@ class NAVEJUEGO_API AEnemigoExplosivo : public AEnemigo
 {
 	GENERATED_BODY()
 
+private:
+	AActor* ObjetivoActual;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -28,5 +31,7 @@ public:
 	virtual void Mover(float DeltaTime) override;
 	virtual void RecibirDanio(float CantidadDanio) override;
 	virtual void Explotar();
+	
+
 
 };

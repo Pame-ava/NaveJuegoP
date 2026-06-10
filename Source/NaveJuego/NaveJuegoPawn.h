@@ -24,8 +24,13 @@ class ANaveJuegoPawn : public APawn
 	class USpringArmComponent* CameraBoom;
 
 public:
-	ANaveJuegoPawn();
+	/* Vida de la nave */
+		//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
+	float Health;
 
+public:
+	ANaveJuegoPawn();
+	
 	/** Offset from the ships location to spawn projectiles */
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite )
 	FVector GunOffset;
@@ -41,6 +46,17 @@ public:
 	/** Sound to play each time we fire */
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
+
+
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor,
+		UPrimitiveComponent* OtherComp, FVector NormalImpulse,
+		const FHitResult& Hit);
+
+	//para generar danio
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
+		class AController* EventInstigator, class AActor* DamageCauser) override;
+
 
 	// Begin Actor Interface
 	virtual void Tick(float DeltaSeconds) override;
