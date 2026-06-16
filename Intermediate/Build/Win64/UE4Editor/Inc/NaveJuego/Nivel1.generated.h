@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define NAVEJUEGO_Nivel1_generated_h
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_SPARSE_DATA
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_RPC_WRAPPERS
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_STANDARD_CONSTRUCTORS \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_SPARSE_DATA
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_RPC_WRAPPERS
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NAVEJUEGO_API UNivel1(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNivel1) \
@@ -29,7 +29,7 @@ private: \
 public:
 
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_ENHANCED_CONSTRUCTORS \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NAVEJUEGO_API UNivel1(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -42,7 +42,7 @@ public: \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNivel1)
 
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_GENERATED_UINTERFACE_BODY() \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUNivel1(); \
 	friend struct Z_Construct_UClass_UNivel1_Statics; \
@@ -51,22 +51,22 @@ public: \
 	DECLARE_SERIALIZER(UNivel1)
 
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_GENERATED_BODY_LEGACY \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_GENERATED_UINTERFACE_BODY() \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_STANDARD_CONSTRUCTORS \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_GENERATED_UINTERFACE_BODY() \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_GENERATED_BODY \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_GENERATED_UINTERFACE_BODY() \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_ENHANCED_CONSTRUCTORS \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_GENERATED_UINTERFACE_BODY() \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~INivel1() {} \
 public: \
@@ -75,7 +75,7 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_13_INCLASS_IINTERFACE \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_14_INCLASS_IINTERFACE \
 protected: \
 	virtual ~INivel1() {} \
 public: \
@@ -84,23 +84,23 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_10_PROLOG
-#define NaveJuego_Source_NaveJuego_Nivel1_h_21_GENERATED_BODY_LEGACY \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_11_PROLOG
+#define NaveJuego_Source_NaveJuego_Nivel1_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_SPARSE_DATA \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_RPC_WRAPPERS \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_INCLASS_IINTERFACE \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_SPARSE_DATA \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_RPC_WRAPPERS \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NaveJuego_Source_NaveJuego_Nivel1_h_21_GENERATED_BODY \
+#define NaveJuego_Source_NaveJuego_Nivel1_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_SPARSE_DATA \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	NaveJuego_Source_NaveJuego_Nivel1_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_SPARSE_DATA \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	NaveJuego_Source_NaveJuego_Nivel1_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

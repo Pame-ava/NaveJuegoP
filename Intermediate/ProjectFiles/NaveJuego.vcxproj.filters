@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NaveJuego.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1C4E07F8-9710-4D27-91AD-73B3010101A6}</UniqueIdentifier>
+      <UniqueIdentifier>{5B478B7E-9B20-461C-9A7D-4CC2B6BAB6F5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NaveJuego.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{D90A44CB-88B7-4B5B-9397-CF83938F7C62}</UniqueIdentifier>
+      <UniqueIdentifier>{34D857EF-6B74-41DA-ACCE-F4BA8E99FCF2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NaveJuego">
-      <UniqueIdentifier>{19CB86EC-1DEB-4534-AA62-82237931846D}</UniqueIdentifier>
+      <UniqueIdentifier>{7F5F91FC-ACDF-4237-A516-32A780CC771F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\NaveJuego\Arma.cpp">
       <Filter>Source\NaveJuego</Filter>
@@ -148,6 +148,30 @@
     <ClInclude Include="..\..\Source\NaveJuego\EnemigoSuscrito.h">
       <Filter>Source\NaveJuego</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EstadoCritico.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EstadoCritico.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EstadoDaniado.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EstadoDaniado.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EstadoExplosivo.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EstadoExplosivo.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\EstadoNormal.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\EstadoNormal.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NaveJuego\FabricaEnemigos.cpp">
       <Filter>Source\NaveJuego</Filter>
     </ClCompile>
@@ -251,6 +275,12 @@
       <Filter>Source\NaveJuego</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NaveJuego\Nivel1.h">
+      <Filter>Source\NaveJuego</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NaveJuego\Nivel1c.cpp">
+      <Filter>Source\NaveJuego</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NaveJuego\Nivel1c.h">
       <Filter>Source\NaveJuego</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\NaveJuego\Nivel2.cpp">

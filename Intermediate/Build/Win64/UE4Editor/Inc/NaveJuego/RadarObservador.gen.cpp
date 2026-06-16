@@ -18,44 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeRadarObservador() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_NaveJuego();
 // End Cross Module References
-	DEFINE_FUNCTION(ARadarObservador::execLogSuscritos)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->LogSuscritos();
-		P_NATIVE_END;
-	}
 	void ARadarObservador::StaticRegisterNativesARadarObservador()
 	{
-		UClass* Class = ARadarObservador::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "LogSuscritos", &ARadarObservador::execLogSuscritos },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_ARadarObservador_LogSuscritos_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ARadarObservador_LogSuscritos_Statics::Function_MetaDataParams[] = {
-		{ "CallInEditor", "true" },
-		{ "Category", "Debug" },
-		{ "ModuleRelativePath", "RadarObservador.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ARadarObservador_LogSuscritos_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARadarObservador, nullptr, "LogSuscritos", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ARadarObservador_LogSuscritos_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ARadarObservador_LogSuscritos_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ARadarObservador_LogSuscritos()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ARadarObservador_LogSuscritos_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ARadarObservador_NoRegister()
 	{
@@ -64,7 +28,6 @@ void EmptyLinkFunctionForGeneratedCodeRadarObservador() {}
 	struct Z_Construct_UClass_ARadarObservador_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -79,9 +42,6 @@ void EmptyLinkFunctionForGeneratedCodeRadarObservador() {}
 	UObject* (*const Z_Construct_UClass_ARadarObservador_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_NaveJuego,
-	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_ARadarObservador_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ARadarObservador_LogSuscritos, "LogSuscritos" }, // 2011913355
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARadarObservador_Statics::Class_MetaDataParams[] = {
@@ -107,11 +67,11 @@ void EmptyLinkFunctionForGeneratedCodeRadarObservador() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_ARadarObservador_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		UE_ARRAY_COUNT(FuncInfo),
+		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_ARadarObservador_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -126,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeRadarObservador() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARadarObservador, 3207973685);
+	IMPLEMENT_CLASS(ARadarObservador, 109185401);
 	template<> NAVEJUEGO_API UClass* StaticClass<ARadarObservador>()
 	{
 		return ARadarObservador::StaticClass();

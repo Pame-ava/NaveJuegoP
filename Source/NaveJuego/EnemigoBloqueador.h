@@ -30,16 +30,10 @@ private:
     bool bModoTriangular = false;
 
 private:
-    UPROPERTY(EditAnywhere, Category = "Movimiento")
+ 
     FVector PuntoInicio;
-
-    UPROPERTY(EditAnywhere, Category = "Movimiento")
     FVector PuntoDestino;
-
-    UPROPERTY(EditAnywhere, Category = "Movimiento")
     FVector LimiteMin = FVector(-1000, -1000, 0);
-
-    UPROPERTY(EditAnywhere, Category = "Movimiento")
     FVector LimiteMax = FVector(1000, 1000, 500);
 
     FVector Direccion;

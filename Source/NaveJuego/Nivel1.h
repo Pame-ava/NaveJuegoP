@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
+#include "Nivel1c.h"
 #include "Nivel1.generated.h"
 
 // This class does not need to be modified.
@@ -23,9 +24,10 @@ class NAVEJUEGO_API INivel1
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 
+	virtual void Reset() = 0;
 	virtual void BuilderLaberinto(UWorld* World) = 0;
 	virtual void BuilderEnemigos(UWorld* World) = 0;
 	virtual void BuilderBonus(UWorld* World) = 0;
-	virtual void GetResultado() = 0;
+	virtual Nivel1c GetResultado() = 0;
 	
 };

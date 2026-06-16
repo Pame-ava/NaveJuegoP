@@ -7,5 +7,6 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitC
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
 F:\K Pamela\E\NaveJuego\Source\NaveJuego\Nivel1.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\Nivel1c.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Nivel1.generated.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\DirectorNivel1.generated.h

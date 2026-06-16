@@ -26,21 +26,30 @@ void ANaveJuegoGameMode::BeginPlay()
     UWorld* World = GetWorld();
     if (!World) return;
 
-    // Crear el Builder y el Director
-    Builder = NewObject<UNivelbasico1>();
-    Director = NewObject<UDirectorNivel1>();
+    // 1. Crear el builder concreto
+    UNivelbasico1* BuilderNivel = NewObject<UNivelbasico1>(this);
 
-    Director->ChangeBuilder(Builder);
+    // 2. Crear el director y asignarle el builder
+    UDirectorNivel1* Director = NewObject<UDirectorNivel1>(this);
+    Director->ChangeBuilder(BuilderNivel);
 
-    // Construir el nivel completo
-    Director->ConstruirNivel(World);
+    // 3. Construir el nivel y obtener el resultado
+    Nivel1c NivelConstruido = Director->ConstruirNivel(GetWorld());
 
-    // 1. Buscar el Radar en el mundo
+    // 4. Verificar que el nivel esté completo
+    if (NivelConstruido.EstaCompleto())
+    {
+        UE_LOG(LogTemp, Log, TEXT("Nivel construido: %d enemigos, %d bonuses"),
+            NivelConstruido.Enemigos.Num(),
+            NivelConstruido.Bonuses.Num());
+    }
+     
+    //llama al radar
     ARadarObservador* Radar = Cast<ARadarObservador>(
         UGameplayStatics::GetActorOfClass(GetWorld(), ARadarObservador::StaticClass())
     );
 
-    // 2. Buscar todos los enemigos en el mundo
+	// busca enemigos suscritos en el mundo 
     TArray<AActor*> Atacantes;
     UGameplayStatics::GetAllActorsOfClass(GetWorld(), AEnemigoAtacante::StaticClass(), Atacantes);
     for (AActor* Actor : Atacantes)

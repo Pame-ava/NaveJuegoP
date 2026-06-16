@@ -37,4 +37,5 @@ public:
 	virtual void Mover(float DeltaTime);
 	virtual void RecibirDanio(float CantidadDanio);
 	virtual void ActualizarEstado(AActor* PawnDetectado);
+	
 };
