@@ -22,7 +22,7 @@ public:
 private:
 	TArray<IObservador*> EnemigosSuscritos;
 	APawn* PawnJugador;
-	bool bYaDetecto; // evita spam de notificaciones
+	bool bYaDetecto; 
 
 public:
 	
@@ -30,7 +30,7 @@ public:
 	void Desuscribir(IObservador* Enemigo) { EnemigosSuscritos.Remove(Enemigo); }
 	void Detectar(AActor* PawnDetectado);
 
-	UFUNCTION(BlueprintCallable, CallInEditor, Category = "Debug")
+	
 	void LogSuscritos();
 
 protected:
@@ -43,7 +43,7 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere, Category = "Radar")
-	float RangoDeteccion = 500.0f;  // <-- ajustable desde el editor
+	float RangoDeteccion = 500.0f;  
 
 private:
 	void NotificarSuscritos(AActor* PawnDetectado);

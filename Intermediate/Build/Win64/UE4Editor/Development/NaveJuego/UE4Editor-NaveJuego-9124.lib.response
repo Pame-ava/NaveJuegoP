@@ -1,0 +1,27 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-NaveJuego-9124.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\NaveJuegoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\DirectorNivel1.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\EnemigoExplosivo.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\EstadoCritico.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\EstadoDaniado.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\EstadoExplosivo.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\EstadoNormal.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\GenerarLaberinto.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\NaveJuegoGameMode.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Nivel1c.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Nivelbasico1.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\RadarObservador.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Module.NaveJuego.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\EnemigoBloqueador.gen.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\NaveJuego.init.gen.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\RadarObservador.gen.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Module.NaveJuego.gen.cpp.obj"
+"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\Default.rc2.res"
+/OUT:"F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego\UE4Editor-NaveJuego-9124.lib"

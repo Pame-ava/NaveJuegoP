@@ -2,4 +2,6 @@ F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Development\NaveJuego
 F:\K Pamela\E\NaveJuego\Source\NaveJuego\EnemigoExplosivo.h
 F:\K Pamela\E\NaveJuego\Source\NaveJuego\Enemigo.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\Enemigo.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\EstadoExplosivo.h
 F:\K Pamela\E\NaveJuego\Intermediate\Build\Win64\UE4Editor\Inc\NaveJuego\EnemigoExplosivo.generated.h
+F:\K Pamela\E\NaveJuego\Source\NaveJuego\EstadoNormal.h

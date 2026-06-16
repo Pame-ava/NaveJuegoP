@@ -22,13 +22,6 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
-private:
-	UDirectorNivel1* Director;
-	UNivelbasico1* Builder;
-
-//private:
-//	UDirectorNivel2* Director;
-//	UNivelBasico2* Builder;
 };
 
 

@@ -11,21 +11,21 @@
 
 void UNivelbasico1::BuilderLaberinto(UWorld* World)
 {
-    int32 Filas = 10;   // tamaño del laberinto
-    int32 Columnas = 15;
+    if (!World) return;
 
-    FActorSpawnParameters Params;
     AGenerarLaberinto* Laberinto = World->SpawnActor<AGenerarLaberinto>(
         AGenerarLaberinto::StaticClass(),
         FVector(0, 0, 200),
-        FRotator::ZeroRotator,
-        Params
+        FRotator::ZeroRotator
     );
 
     if (Laberinto)
     {
-        Laberinto->ConfigurarLaberinto(Filas, Columnas); // método propio para ajustar tamaño
+
         Laberinto->Generar();
+
+        // Guardamos en el producto
+        Resultado.Laberinto = Laberinto;
     }
 }
 

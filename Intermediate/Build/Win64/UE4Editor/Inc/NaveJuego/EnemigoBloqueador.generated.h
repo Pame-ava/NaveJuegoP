@@ -60,13 +60,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemigoBloqueador)
 
 
-#define NaveJuego_Source_NaveJuego_EnemigoBloqueador_h_16_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__PuntoInicio() { return STRUCT_OFFSET(AEnemigoBloqueador, PuntoInicio); } \
-	FORCEINLINE static uint32 __PPO__PuntoDestino() { return STRUCT_OFFSET(AEnemigoBloqueador, PuntoDestino); } \
-	FORCEINLINE static uint32 __PPO__LimiteMin() { return STRUCT_OFFSET(AEnemigoBloqueador, LimiteMin); } \
-	FORCEINLINE static uint32 __PPO__LimiteMax() { return STRUCT_OFFSET(AEnemigoBloqueador, LimiteMax); }
-
-
+#define NaveJuego_Source_NaveJuego_EnemigoBloqueador_h_16_PRIVATE_PROPERTY_OFFSET
 #define NaveJuego_Source_NaveJuego_EnemigoBloqueador_h_13_PROLOG
 #define NaveJuego_Source_NaveJuego_EnemigoBloqueador_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

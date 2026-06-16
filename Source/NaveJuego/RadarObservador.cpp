@@ -25,7 +25,7 @@ ARadarObservador::ARadarObservador()
 void ARadarObservador::BeginPlay()
 {
 	Super::BeginPlay();
-    // Suscribir dos enemigos al radar
+    
 
     PawnJugador = Cast<ANaveJuegoPawn>(
         UGameplayStatics::GetPlayerPawn(GetWorld(), 0)
@@ -36,11 +36,8 @@ void ARadarObservador::BeginPlay()
         UE_LOG(LogTemp, Error, TEXT("Radar: no se encontró la NaveJuegoPawn"));
     }
 
-    // Suscribir enemigos automáticamente al iniciar
-   /* for (TActorIterator<AEnemigoSuscrito> It(GetWorld()); It; ++It)
-    {
-        Suscribir(*It);
-    }*/
+    
+   
     for (TActorIterator<AEnemigoAtacante> It(GetWorld()); It; ++It)
     {
         Suscribir(*It);

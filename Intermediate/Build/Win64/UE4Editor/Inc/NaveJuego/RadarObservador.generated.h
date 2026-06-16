@@ -14,16 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define NAVEJUEGO_RadarObservador_generated_h
 
 #define NaveJuego_Source_NaveJuego_RadarObservador_h_14_SPARSE_DATA
-#define NaveJuego_Source_NaveJuego_RadarObservador_h_14_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execLogSuscritos);
-
-
-#define NaveJuego_Source_NaveJuego_RadarObservador_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execLogSuscritos);
-
-
+#define NaveJuego_Source_NaveJuego_RadarObservador_h_14_RPC_WRAPPERS
+#define NaveJuego_Source_NaveJuego_RadarObservador_h_14_RPC_WRAPPERS_NO_PURE_DECLS
 #define NaveJuego_Source_NaveJuego_RadarObservador_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARadarObservador(); \

@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveJuego_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9621828A,
+				0x8BEEF342,
 				0x92001F19,
 				METADATA_PARAMS(nullptr, 0)
 			};

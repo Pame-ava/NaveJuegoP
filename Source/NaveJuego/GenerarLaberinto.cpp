@@ -12,7 +12,7 @@ AGenerarLaberinto::AGenerarLaberinto()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-    ConfigurarLaberinto(8,10);
+    ConfigurarLaberinto(5,5);
     Generar();
     
 }
@@ -34,8 +34,7 @@ void AGenerarLaberinto::Tick(float DeltaTime)
 void AGenerarLaberinto::GenerarCampoMeteoritos()
 {
     if (!GetWorld()) return;
-
-    // Instanciar fábricas
+   
     AFabricaMeteoritosMovil* FabricaMovil = GetWorld()->SpawnActor<AFabricaMeteoritosMovil>();
     AFabricaMeteoritosFantasma* FabricaFantasma = GetWorld()->SpawnActor<AFabricaMeteoritosFantasma>();
     AFabricaMeteoritosDestructible* FabricaDestructible = GetWorld()->SpawnActor<AFabricaMeteoritosDestructible>();
